@@ -7,7 +7,7 @@ public class Main {
         gestor.adicionarTransacao("Freelance", 1200.0, Transacao.TipoTransacao.RECEITA);
         gestor.adicionarTransacao("Aluguel", 1500.0, Transacao.TipoTransacao.DESPESA);
         gestor.adicionarTransacao("Supermercado", 600.0, Transacao.TipoTransacao.DESPESA);
-        gestor.adicionarTransacao("Internet", 100.0, Transacao.TipoTransacao.DESPESA); // Corrigido aqui
+        gestor.adicionarTransacao("Internet", 100.0, Transacao.TipoTransacao.DESPESA); 
 
 
         gestor.listarTransacoes();
